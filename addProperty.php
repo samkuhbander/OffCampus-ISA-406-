@@ -42,7 +42,60 @@
 </head>
 
 <body>
-  <h1>Rental Companies</h1>
+  <h1 style="text-align: center; margin:30px;">Add a Property </h1> 
+  <h3 style="text-align: center; margin:40px;">Submit a property and our team will contact you for more information and review.</h1>
+  <div class="col-md-6" style="margin: auto; padding: 30px;">
+  <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Rental Company</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Name</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="John Smith">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Relation to Property</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+    <label for="inputCity">State</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        I own this property
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit Property</button>
+</form>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Bootstrap JS -->
