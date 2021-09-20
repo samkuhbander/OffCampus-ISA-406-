@@ -39,7 +39,8 @@
 </head>
 
 <body>
-  <h1 style="text-align:center;margin-top:100px;">Welcome to OffCampus!</h1>
+  <h1>Map Page!</h1>
+  
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Bootstrap JS -->
