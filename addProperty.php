@@ -84,6 +84,22 @@
       <label for="inputZip">Zip</label>
       <input type="text" class="form-control" id="inputZip">
     </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Beds</label>
+      <input type="number" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Baths</label>
+      <input type="number" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Price</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Property Type</label>
+      <input type="number" class="form-control" id="inputEmail4" placeholder="House or Apartment">
+    </div>
   </div>
   <div class="form-group">
     <div class="form-check">
