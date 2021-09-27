@@ -42,7 +42,8 @@
 </head>
 
 <body>
-  <h1 style="text-align:center;:100px;">Welcome to OffCampus!</h1>
+  <h1 style="text-align:center;padding:100px;">Welcome to OffCampus!</h1>
+  <h3 style="text-align:center;">This is a project for our ISA406 group. <br> The purpose of this project is to create a centralized system for students to view rental properties.</h3>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Bootstrap JS -->
