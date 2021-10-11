@@ -19,67 +19,40 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="map.php">Map</a>
+          <a class="nav-link" href="../map.php">Map</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="listings.php">Listings</a>
+          <a class="nav-link" href="../listings.php">Listings</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="companies.php">Companies</a>
+          <a class="nav-link" href="../companies.php">Companies</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="addProperty.php">Add Property</a>
+          <a class="nav-link" href="../addProperty.php">Add Property</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Login</button>
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" onclick="location.href='login.php'">Login</button>
       </form>
     </div>
   </nav>
 </head>
 
 <body>
-  <h1 style="text-align: center; margin:30px;">Listings</h1> 
 
-  <div class="card-deck">
-  <div class="card">
+  <div>
     <img src="https://hometownstudentrentals.com/wp-content/uploads/2019/11/20200811_220837611_iOS-270x180.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
       <h5 class="card-title">107 S Poplar St</h5>
       <p class="card-text">House</p>
       <p class="card-text">4 Beds</p>
       <p class="card-text">2.5 Baths</p>
       <p class="card-text">$3,850</p>
-      <a href="listings/107SPoplar.php" class="btn btn-primary">View</a>
-    </div>
   </div>
-  <div class="card">
-    <img src="https://hometownstudentrentals.com/wp-content/uploads/2018/02/205-W-Sycamore-horizontal.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">205 W Sycamore St</h5>
-      <p class="card-text">Apartment</p>
-      <p class="card-text">3 Beds</p>
-      <p class="card-text">1 Baths</p>
-      <p class="card-text">$6,300</p>
-      <a href="#" class="btn btn-primary">View</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://ap.rdcpix.com/a6407e5725b01b2dda10d1dab2dc0cf3l-b292455480xd-w300_h300_q80.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">214 W Vine St</h5>
-      <p class="card-text">House</p>
-      <p class="card-text">4 Beds</p>
-      <p class="card-text">2 Baths</p>
-      <p class="card-text">$2,100</p>
-      <a href="#" class="btn btn-primary">View</a>
-    </div>
-  </div>
-</div>
-
+ 
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
