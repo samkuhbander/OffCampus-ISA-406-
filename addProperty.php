@@ -98,7 +98,7 @@
     </div>
     <div class="form-group col-md-6">
       <label for="inputEmail4">Property Type</label>
-      <input type="number" class="form-control" id="inputEmail4" placeholder="House or Apartment">
+      <input type="text" class="form-control" id="inputEmail4" placeholder="House or Apartment">
     </div>
   </div>
   <div class="form-group">

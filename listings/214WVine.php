@@ -43,12 +43,12 @@
 
 <body>
   <div class = "w-50 p-4 m-4 mx-auto bg-light text-center border" style="border-radius: 25px;">
-    <img src="https://hometownstudentrentals.com/wp-content/uploads/2019/11/20200811_220837611_iOS-270x180.jpg" class="card-img-top" alt="...">
+    <img src="https://ap.rdcpix.com/a6407e5725b01b2dda10d1dab2dc0cf3l-b292455480xd-w300_h300_q80.jpg" class="card-img-top" alt="...">
     <table class="table table-striped">
     <tbody>
       <tr>
         <th scope="row">Address:</th>
-        <td>107 S Poplar St</td>
+        <td>214 W Vine Street</td>
       </tr>
       <tr>
         <th scope="row">Type:</th>
@@ -60,19 +60,19 @@
       </tr>
       <tr>
         <th scope="row">Bath:</th>
-        <td>2.5</td>
+        <td>2</td>
       </tr>
       <tr>
         <th scope="row">Rent:</th>
-        <td>$3,850</td>
+        <td>$2,100</td>
       </tr>
       <tr>
         <th scope="row">Walk to Armstrong:</th>
-        <td>15 minutes</td>
+        <td>20 minutes</td>
       </tr>
       <tr>
         <th scope="row">Walk to Uptown:</th>
-        <td>3 minutes</td>
+        <td>8 minutes</td>
       </tr>
     </tbody>
   </table>

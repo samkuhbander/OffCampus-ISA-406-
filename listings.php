@@ -64,7 +64,7 @@
       <p class="card-text">3 Beds</p>
       <p class="card-text">1 Baths</p>
       <p class="card-text">$6,300</p>
-      <a href="#" class="btn btn-primary">View</a>
+      <a href="listings/205WSycamore.php" class="btn btn-primary">View</a>
     </div>
   </div>
   <div class="card">
@@ -75,7 +75,7 @@
       <p class="card-text">4 Beds</p>
       <p class="card-text">2 Baths</p>
       <p class="card-text">$2,100</p>
-      <a href="#" class="btn btn-primary">View</a>
+      <a href="listings/214WVine.php" class="btn btn-primary">View</a>
     </div>
   </div>
 </div>

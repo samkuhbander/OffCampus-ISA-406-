@@ -43,36 +43,36 @@
 
 <body>
   <div class = "w-50 p-4 m-4 mx-auto bg-light text-center border" style="border-radius: 25px;">
-    <img src="https://hometownstudentrentals.com/wp-content/uploads/2019/11/20200811_220837611_iOS-270x180.jpg" class="card-img-top" alt="...">
+    <img src="https://hometownstudentrentals.com/wp-content/uploads/2018/02/205-W-Sycamore-horizontal.jpg" class="card-img-top" alt="...">
     <table class="table table-striped">
     <tbody>
       <tr>
         <th scope="row">Address:</th>
-        <td>107 S Poplar St</td>
+        <td>205 W Sycamore</td>
       </tr>
       <tr>
         <th scope="row">Type:</th>
-        <td>House</td>
+        <td>Apartment</td>
       </tr>
       <tr>
         <th scope="row">Beds:</th>
-        <td>4</td>
+        <td>3</td>
       </tr>
       <tr>
         <th scope="row">Bath:</th>
-        <td>2.5</td>
+        <td>1</td>
       </tr>
       <tr>
         <th scope="row">Rent:</th>
-        <td>$3,850</td>
+        <td>$6,300</td>
       </tr>
       <tr>
         <th scope="row">Walk to Armstrong:</th>
-        <td>15 minutes</td>
+        <td>20 minutes</td>
       </tr>
       <tr>
         <th scope="row">Walk to Uptown:</th>
-        <td>3 minutes</td>
+        <td>7 minutes</td>
       </tr>
     </tbody>
   </table>
