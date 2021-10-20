@@ -42,7 +42,19 @@
 </head>
 
 <body>
-  <h1>Rental Companies</h1>
+  <div>
+    <h1 style="text-align: center; margin:30px;">Rental Companies</h1> 
+    <ul style="font-size:25px">
+      <li><a href = "https://hometownstudentrentals.com/">Hometown Student Rentals</a></li>
+      <li><a href = "https://www.oxre.com/">Oxford Real Estate</a></li>
+      <li><a href = "http://redbrickmiami.com/">Red Brick Property Management</a></li>
+      <li><a href = "http://www.duboisrentals.com/">DuBois Rentals, LLC</a></li>
+      <li><a href = "https://www.ckcrentals.com/">CKC Rental Agency</a></li>
+      <li><a href = "https://www.collegepropertymanagement.com/">College Property Management</a></li>
+      <li><a href = "https://collegestreetproperties.com/">College Street Properties, Inc</a></li>
+      <li><a href = "http://southcampusquarter.com/">South Campus Quarter</a></li>
+    </ul>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Bootstrap JS -->
