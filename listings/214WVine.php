@@ -44,7 +44,27 @@
 
 <body>
   <div class = "w-50 p-4 m-4 mx-auto bg-light text-center border" style="border-radius: 25px;">
-    <img src="https://ap.rdcpix.com/a6407e5725b01b2dda10d1dab2dc0cf3l-b292455480xd-w300_h300_q80.jpg" class="card-img-top" alt="...">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://hometownstudentrentals.com/wp-content/uploads/2018/02/IMG_5447-1024x683.jpg" height="450px" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://hometownstudentrentals.com/wp-content/uploads/2018/02/IMG_4452-768x1024.jpg" height="450px" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://hometownstudentrentals.com/wp-content/uploads/2018/02/IMG_4453-270x180.jpg" height="450px" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     <table class="table table-striped">
     <tbody>
       <tr>
@@ -77,6 +97,14 @@
       </tr>
     </tbody>
   </table>
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Sign up for property updates</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </form>
   <canvas id="pricingChart" style="width:100%;max-width:600px"></canvas>
   </div>
   <div>

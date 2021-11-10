@@ -77,6 +77,14 @@
       </tr>
     </tbody>
   </table>
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Sign up for property updates</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </form>
   <canvas id="pricingChart" style="width:100%;max-width:600px"></canvas>
   </div>
   <div>

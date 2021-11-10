@@ -68,7 +68,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="https://ap.rdcpix.com/a6407e5725b01b2dda10d1dab2dc0cf3l-b292455480xd-w300_h300_q80.jpg" class="card-img-top" alt="...">
+    <img src="https://hometownstudentrentals.com/wp-content/uploads/2018/02/IMG_5447-1024x683.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">214 W Vine St</h5>
       <p class="card-text">House</p>

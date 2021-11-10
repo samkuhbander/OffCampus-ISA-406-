@@ -1,5 +1,4 @@
-<!doctype html>
-<html lang="en">
+
 
 <head>
   <!-- Required meta tags -->
@@ -44,6 +43,17 @@
 <body>
   <h1 style="text-align:center;padding:100px;">Welcome to OffCampus!</h1>
   <h3 style="text-align:center;">This is a project for our ISA406 group. <br> The purpose of this project is to create a centralized system for students to view rental properties.</h3>
+
+
+<!-- <?php
+phpinfo();
+
+$conn = oci_connect('hellinnj', 'Miami#2022', 'properties');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+?> -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Bootstrap JS -->
