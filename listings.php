@@ -44,6 +44,14 @@
 <body>
   <h1 style="text-align: center; margin:30px;">Listings</h1> 
 
+<select onchange="location = this.value;">
+  <option selected>Default Filter</option>
+  <option value="listingLow.php">Price (low to high)</option>
+  <option value="listingHigh.php">Price (high to low)</option>
+  <option value="listingLow.php">Distance to Uptown</option>
+  <option value="1">Walk to Armstrong</option>
+</select>
+
   <div class="card-deck">
   <div class="card">
     <img src="https://hometownstudentrentals.com/wp-content/uploads/2019/11/20200811_220837611_iOS-270x180.jpg" class="card-img-top" alt="...">

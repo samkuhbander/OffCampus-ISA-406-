@@ -1,4 +1,5 @@
-
+<!doctype html>
+<html lang="en">
 
 <head>
   <!-- Required meta tags -->
@@ -34,36 +35,60 @@
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" onclick="location.href='login.php'">Login</button>
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Login</button>
       </form>
     </div>
   </nav>
 </head>
 
 <body>
-  <h1 style="text-align:center;padding:50px;">Welcome to OffCampus!</h1>
-  <h3 style="text-align:center; padding:25px;">This is a project for our ISA406 group. <br> The purpose of this project is to create a centralized system for students to view rental properties.</h3>
-  <form>
-  <div class = "w-50 p-4 m-4 mx-auto bg-light text-center border" style="border-radius: 25px;">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Sign Up for Our Email List</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll keep you updated on our application!</small>
-    <button type="submit" class="btn btn-primary mt-3">Submit</button>
-  </div>
-  </form>
-  </div>
+  <h1 style="text-align: center; margin:30px;">Listings</h1> 
 
-<?php
-
-// connect to the database
-$db = mysqli_connect('127.0.0.1', 'root', '', 'database1'); //"database1" is the name of my local database 
-if ($db) {
-  echo 'connected';
-} else {
-  echo 'not connected';
-}
-?> 
+<select onchange="location = this.value;">
+  <option value="listings.php">Default Filter</option>
+  <option value="listingLow.php">Price (low to high)</option>
+  <option selected>Price (high to low)</option>
+  <option value="1">Distance to Uptown</option>
+  <option value="1">Walk to Armstrong</option>
+</select>
+  
+  <div class="card-deck">
+  <div class="card">
+    <img src="https://hometownstudentrentals.com/wp-content/uploads/2018/02/205-W-Sycamore-horizontal.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">205 W Sycamore St</h5>
+      <p class="card-text">Apartment</p>
+      <p class="card-text">3 Beds</p>
+      <p class="card-text">1 Baths</p>
+      <p class="card-text">$6,300</p>
+      <a href="listings/205WSycamore.php" class="btn btn-primary">View</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://hometownstudentrentals.com/wp-content/uploads/2019/11/20200811_220837611_iOS-270x180.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">107 S Poplar St</h5>
+      <p class="card-text">House</p>
+      <p class="card-text">4 Beds</p>
+      <p class="card-text">2.5 Baths</p>
+      <p class="card-text">$3,850</p>
+      <a href="listings/107SPoplar.php" class="btn btn-primary">View</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://hometownstudentrentals.com/wp-content/uploads/2018/02/IMG_5447-1024x683.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">214 W Vine St</h5>
+      <p class="card-text">House</p>
+      <p class="card-text">4 Beds</p>
+      <p class="card-text">2 Baths</p>
+      <p class="card-text">$2,100</p>
+      <a href="listings/214WVine.php" class="btn btn-primary">View</a>
+    </div>
+  </div>
+  
+  
+</div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Bootstrap JS -->
